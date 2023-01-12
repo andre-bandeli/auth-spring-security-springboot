@@ -15,7 +15,7 @@ public class UserRoles {
     @Column(name = "role_description")
     private String roleDescription;
 
-    @Override
+
     public String getAuthority() {
         return roleCode;
     }
