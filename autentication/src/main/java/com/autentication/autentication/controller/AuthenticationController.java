@@ -4,6 +4,7 @@ import com.autentication.autentication.model.auth.AuthenticantionResponse;
 import com.autentication.autentication.model.auth.AuthenticationRequest;
 import com.autentication.autentication.model.auth.RegisterRequest;
 import com.autentication.autentication.service.AuthenticationService;
+import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -12,9 +13,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("api/v1/auth")
+@RequiredArgsConstructor
 public class AuthenticationController {
 
-    private AuthenticationService authenticationService;
+    private final AuthenticationService authenticationService;
 
     @PostMapping("/register")
     public ResponseEntity<AuthenticantionResponse> register(@RequestBody RegisterRequest request) {
