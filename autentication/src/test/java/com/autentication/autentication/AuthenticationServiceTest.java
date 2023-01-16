@@ -45,7 +45,7 @@ public class AuthenticationServiceTest {
     }
 
     @Test
-    public void registerNullPasswordTest() {
+    public void registerNotNullPasswordTest() {
 
         PasswordEncoder encoder = PasswordEncoderFactories.createDelegatingPasswordEncoder();
         String message = null;
