@@ -43,6 +43,14 @@ entre na pasta do projeto, onde encontra-se o arquivo pom.xml:
 Rode o comando para instalar as dependências através do maven:
 
         mvn clean install
+        
+O seguinte resultado é esperado:
+![springboot_run](https://user-images.githubusercontent.com/87938869/212789128-3b8f4a5f-73d0-4257-b435-0743ec2b0a39.png)
+
+seguido dos logs 
+![springboot_logs](https://user-images.githubusercontent.com/87938869/212789258-d7ac1cb6-3907-4583-857c-f48479c605ee.png)
+
+
 
 ### Testes de Requisição com Postman
 
