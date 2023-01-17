@@ -71,12 +71,10 @@ Página inicial (requer autenticação):
 
 ### Créditos
 
-##### ![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)
-#### Amigoscode: [Spring Boot 3 + Spring Security 6 - JWT Authentication and Authorisation [NEW] [2023]](https://www.youtube.com/watch?v=KxqlJblhzfI)
+<b><u>Amigoscode</u></b> (Youtube)
+- [Spring Boot 3 + Spring Security 6 - JWT Authentication and Authorisation [NEW] [2023]](https://www.youtube.com/watch?v=KxqlJblhzfI)
 
-### Levantamento/Referências
-
-docs.spring.io
+<b><u>docs.spring.io</u></b> (Documentação)
 - [The Security Filter Chain - Web Application Security](https://docs.spring.io/spring-security/site/docs/3.1.4.RELEASE/reference/security-filter-chain.html)
 - [OAuth 2.0 Resource Server JWT](https://docs.spring.io/spring-security/reference/servlet/oauth2/resource-server/jwt.html)
 
