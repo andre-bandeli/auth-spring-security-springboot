@@ -74,6 +74,10 @@ Autenticar-se:
 Página inicial (requer autenticação):
 
     GET: localhost:8080/api/v1/home
+    
+Quando uma nova conta é registrada ou autenticada, cria-se um token JWT ncessário para realizar as requisições. Utilize o token gerado para utilizar na autenticação do Postman:
+![postman](https://user-images.githubusercontent.com/87938869/212790022-45b6cc10-c6e9-4a15-aaae-6bd6bcc97417.png)
+
 
 ### Testes Unitários com JUnit e Mock
 
