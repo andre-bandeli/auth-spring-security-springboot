@@ -1,4 +1,4 @@
-package com.autentication.autentication;
+package com.autentication.autentication.ModelTest;
 
 import com.autentication.autentication.model.Role;
 import com.autentication.autentication.model.User;

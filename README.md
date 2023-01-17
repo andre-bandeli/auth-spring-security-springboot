@@ -20,16 +20,25 @@ Esta é uma api criada para fins de estudo sobre Spring Security, Spring Boot, J
 
 #### Frameworks
 
-- Spring Boot:
-- Hibernate
+- Spring Boot 3.0: [Spring Boot - spring.io](https://spring.io/projects/spring-boot)  | [Spring Initializer](https://start.spring.io/) 
+  - Spring Data JPA
+  - Spring MySQL Driver
+  - Spring Security
+  - Spring JWT
+  - Spring WebDevTolls
+- Hibernate: [Hibernate](https://hibernate.org/) | [Guia de Referência - DEVMEDIA](https://www.devmedia.com.br/guia/hibernate/38312) | [O que é e o porque devo utilizar o Hibernate - Medium](https://medium.com/@leonardogiuliani/o-que-%C3%A9-e-porque-devo-utilizar-o-hibernate-66fae865a22f)
 
 #### Banco de Dados
+<i>obs: Esta api foi desenvolvida utilizando o intellij - Free Educational Licenses - que oferece um sistema gerenciador de banco de dados (SGBD) integrado a própria IDE. Como alternativa, sugiro o uso do DBeaver. [instalação ubuntu](https://www.edivaldobrito.com.br/dbeaver-no-ubuntu-e-derivados/)
+</i>
 
-- MySQL 
+
+- MySQL: [Dockerhub](https://hub.docker.com/_/mysql) | [Spring Boot application: Accessing data with MySQL](https://spring.io/guides/gs/accessing-data-mysql/)
+
 
 #### Containers
 
-- Docker
+- Docker: [Docker](https://www.docker.com/) | [Docker na prática - GeekHunter](https://blog.geekhunter.com.br/docker-na-pratica-como-construir-uma-aplicacao/) | [Instalando no ubuntu 20.0 - DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04-pt)
 
 ### Instalação:
 
@@ -80,6 +89,9 @@ Quando uma nova conta é registrada ou autenticada, cria-se um token JWT ncessá
 
 
 ### Testes Unitários com JUnit e Mock
+
+Estrutura do diretório de testes unitários
+![](../../../Imagens/Capturas de tela/dir.png)
 
 ### Créditos
 
