@@ -11,30 +11,40 @@
 
 Esta é uma api criada para fins de estudo sobre Spring Security, Spring Boot, JWT, MySQL e Docker.
 
+### Ferramentas utilizadas:
+
+#### JDK 11
+
+- JDK 11: [JAVA SE 11 Archive Downloads - ORACLE](https://www.oracle.com/br/java/technologies/javase/jdk11-archive-downloads.html)
+- Maven: [Apache Maven](https://maven.apache.org/) | [Introdução ao Maven - DEVMEDIA](https://www.devmedia.com.br/introducao-ao-maven/25128) | [Instalando Maven](https://maven.apache.org/install.html)
+
+#### Frameworks
+
+- Spring Boot:
+- Hibernate
+
+#### Banco de Dados
+
+- MySQL 
+
+#### Containers
+
+- Docker
 
 ### Instalação:
 
 clone o projeto
 
-        git clone 
+        git clone https://github.com/andre-bandeli/auth-spring-security-springboot.git
 entre na pasta do projeto, onde encontra-se o arquivo pom.xml:
 
-        cd 
+        cd auth-security-springboot
 
 Rode o comando para instalar as dependências através do maven:
 
         mvn clean install
 
-### Ferramentas utilizadas:
-
-- Java
-- Docker
-- Spring Boot
-- Apache Maven
-- MySQL
-
-
-### Testes Postman
+### Testes de Requisição com Postman
 
 Objeto JSON para autenticação/criação de usuário no banco de dados:
 
@@ -58,6 +68,17 @@ Página inicial (requer autenticação):
     GET: localhost:8080/api/v1/home
 
 ### Testes Unitários com JUnit e Mock
+
+### Créditos
+
+##### ![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)
+#### Amigoscode: [Spring Boot 3 + Spring Security 6 - JWT Authentication and Authorisation [NEW] [2023]](https://www.youtube.com/watch?v=KxqlJblhzfI)
+
+### Levantamento/Referências
+
+docs.spring.io
+- [The Security Filter Chain - Web Application Security](https://docs.spring.io/spring-security/site/docs/3.1.4.RELEASE/reference/security-filter-chain.html)
+- [OAuth 2.0 Resource Server JWT](https://docs.spring.io/spring-security/reference/servlet/oauth2/resource-server/jwt.html)
 
 ### Suporte
 
