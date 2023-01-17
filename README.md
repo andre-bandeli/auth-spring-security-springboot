@@ -7,13 +7,13 @@
 ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white
 )
 
-### Resumo
+## Resumo
 
-Esta é uma api criada para fins de estudo sobre Spring Security, Spring Boot, JWT, MySQL e Docker.
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
 
-### Ferramentas utilizadas:
+## Requisitos:
 
-#### JDK 11
+#### Java
 
 - JDK 11: [JAVA SE 11 Archive Downloads - ORACLE](https://www.oracle.com/br/java/technologies/javase/jdk11-archive-downloads.html)
 - Maven: [Apache Maven](https://maven.apache.org/) | [Introdução ao Maven - DEVMEDIA](https://www.devmedia.com.br/introducao-ao-maven/25128) | [Instalando Maven](https://maven.apache.org/install.html)
@@ -21,11 +21,6 @@ Esta é uma api criada para fins de estudo sobre Spring Security, Spring Boot, J
 #### Frameworks
 
 - Spring Boot 3.0: [Spring Boot - spring.io](https://spring.io/projects/spring-boot)  | [Spring Initializer](https://start.spring.io/) 
-  - Spring Data JPA
-  - Spring MySQL Driver
-  - Spring Security
-  - Spring JWT
-  - Spring WebDevTolls
 - Hibernate: [Hibernate](https://hibernate.org/) | [Guia de Referência - DEVMEDIA](https://www.devmedia.com.br/guia/hibernate/38312) | [O que é e o porque devo utilizar o Hibernate - Medium](https://medium.com/@leonardogiuliani/o-que-%C3%A9-e-porque-devo-utilizar-o-hibernate-66fae865a22f)
 
 #### Banco de Dados
@@ -40,7 +35,7 @@ Esta é uma api criada para fins de estudo sobre Spring Security, Spring Boot, J
 
 - Docker: [Docker](https://www.docker.com/) | [Docker na prática - GeekHunter](https://blog.geekhunter.com.br/docker-na-pratica-como-construir-uma-aplicacao/) | [Instalando no ubuntu 20.0 - DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04-pt)
 
-### Instalação:
+## Instalação
 
 clone o projeto
 
@@ -61,7 +56,7 @@ seguido dos logs
 
 
 
-### Testes de Requisição com Postman
+## Testando requisições via Postman
 
 Objeto JSON para autenticação/criação de usuário no banco de dados:
 
@@ -88,12 +83,12 @@ Quando uma nova conta é registrada ou autenticada, cria-se um token JWT ncessá
 ![postman](https://user-images.githubusercontent.com/87938869/212790022-45b6cc10-c6e9-4a15-aaae-6bd6bcc97417.png)
 
 
-### Testes Unitários com JUnit e Mock
+## Testes Unitários: JUnit 5 e Mocks
 
 Estrutura do diretório de testes unitários
 ![dir](https://user-images.githubusercontent.com/87938869/212795310-32e147a2-8df6-4f60-abdd-a33dd47c272c.png)
 
-### Créditos
+## Créditos
 
 <b><u>Amigoscode</u></b> (Youtube)
 - [Spring Boot 3 + Spring Security 6 - JWT Authentication and Authorisation [NEW] [2023]](https://www.youtube.com/watch?v=KxqlJblhzfI)
@@ -102,7 +97,7 @@ Estrutura do diretório de testes unitários
 - [The Security Filter Chain - Web Application Security](https://docs.spring.io/spring-security/site/docs/3.1.4.RELEASE/reference/security-filter-chain.html)
 - [OAuth 2.0 Resource Server JWT](https://docs.spring.io/spring-security/reference/servlet/oauth2/resource-server/jwt.html)
 
-### Suporte
+## Suporte
 
 Em caso de dúvidas, sugestões ou melhorias, abra uma nova issue ou envie uma mensagem através de alguma de minhas redes:
 
