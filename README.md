@@ -91,7 +91,7 @@ Quando uma nova conta é registrada ou autenticada, cria-se um token JWT ncessá
 ### Testes Unitários com JUnit e Mock
 
 Estrutura do diretório de testes unitários
-![](../../../Imagens/Capturas de tela/dir.png)
+![dir](https://user-images.githubusercontent.com/87938869/212795310-32e147a2-8df6-4f60-abdd-a33dd47c272c.png)
 
 ### Créditos
 
