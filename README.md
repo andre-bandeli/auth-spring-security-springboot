@@ -20,7 +20,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 
 #### Frameworks
 
-- Spring Boot 3.0: [Spring Boot - spring.io](https://spring.io/projects/spring-boot)  | [Spring Initializer](https://start.spring.io/) 
+- Spring Boot 3.0: [Spring Boot - spring.io](https://spring.io/projects/spring-boot)  | [Spring Initializer](https://start.spring.io/)
 - Hibernate: [Hibernate](https://hibernate.org/) | [Guia de Referência - DEVMEDIA](https://www.devmedia.com.br/guia/hibernate/38312) | [O que é e o porque devo utilizar o Hibernate - Medium](https://medium.com/@leonardogiuliani/o-que-%C3%A9-e-porque-devo-utilizar-o-hibernate-66fae865a22f)
 
 #### Banco de Dados
@@ -47,11 +47,11 @@ entre na pasta do projeto, onde encontra-se o arquivo pom.xml:
 Rode o comando para instalar as dependências através do maven:
 
         mvn clean install
-        
+
 O seguinte resultado é esperado:
 ![springboot_run](https://user-images.githubusercontent.com/87938869/212789128-3b8f4a5f-73d0-4257-b435-0743ec2b0a39.png)
 
-seguido dos logs 
+seguido dos logs
 ![springboot_logs](https://user-images.githubusercontent.com/87938869/212789258-d7ac1cb6-3907-4583-857c-f48479c605ee.png)
 
 
@@ -78,7 +78,7 @@ Autenticar-se:
 Página inicial (requer autenticação):
 
     GET: localhost:8080/api/v1/home
-    
+
 Quando uma nova conta é registrada ou autenticada, cria-se um token JWT ncessário para realizar as requisições. Utilize o token gerado para utilizar na autenticação do Postman:
 ![postman](https://user-images.githubusercontent.com/87938869/212790022-45b6cc10-c6e9-4a15-aaae-6bd6bcc97417.png)
 
