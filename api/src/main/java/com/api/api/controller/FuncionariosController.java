@@ -1,5 +1,7 @@
-package com.api.api;
+package com.api.api.controller;
 
+import com.api.api.model.Funcionarios;
+import com.api.api.service.FuncionarioService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

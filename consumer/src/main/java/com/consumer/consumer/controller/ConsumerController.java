@@ -1,5 +1,7 @@
-package com.consumer.consumer;
+package com.consumer.consumer.controller;
 
+import com.consumer.consumer.model.Consumer;
+import com.consumer.consumer.service.ConsumerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.GetMapping;

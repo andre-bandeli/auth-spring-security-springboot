@@ -1,10 +1,14 @@
-package com.api.api;
+package com.consumer.consumer.model;
 
-import jakarta.persistence.*;
+import com.fasterxml.jackson.annotation.JsonAutoDetect;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
 
 @Entity
-@Table(name = "_funcionarios")
-public class Funcionarios {
+@JsonAutoDetect(fieldVisibility = JsonAutoDetect.Visibility.ANY)
+public class Consumer {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -18,7 +22,7 @@ public class Funcionarios {
 
     private Double salario;
 
-    public Funcionarios() {
+    public Consumer() {
     }
 
     public Long getId() {

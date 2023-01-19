@@ -1,5 +1,7 @@
-package com.consumer.consumer;
+package com.consumer.consumer.service;
 
+import com.consumer.consumer.model.Consumer;
+import com.consumer.consumer.repository.ConsumerRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatusCode;

@@ -1,5 +1,6 @@
-package com.consumer.consumer;
+package com.consumer.consumer.repository;
 
+import com.consumer.consumer.model.Consumer;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

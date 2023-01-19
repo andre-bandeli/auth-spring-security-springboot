@@ -1,5 +1,7 @@
-package com.api.api;
+package com.api.api.service;
 
+import com.api.api.model.Funcionarios;
+import com.api.api.repository.FuncionariosRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
