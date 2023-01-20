@@ -14,6 +14,7 @@ public class FuncionarioService {
     private FuncionariosRepository funcionariosRepository;
 
     public Funcionarios saveFuncionario(Funcionarios funcionarios) {
+        funcionarios.setNome_empresa(funcionarios.getNome_empresa());
         return funcionariosRepository.save(funcionarios);
     }
 

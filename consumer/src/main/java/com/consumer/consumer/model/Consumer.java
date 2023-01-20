@@ -1,10 +1,10 @@
 package com.consumer.consumer.model;
 
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import jakarta.persistence.*;
+
+import java.util.List;
 
 @Entity
 @JsonAutoDetect(fieldVisibility = JsonAutoDetect.Visibility.ANY)
@@ -18,6 +18,7 @@ public class Consumer {
 
     private String sobrenome;
 
+    @JsonProperty("nome_empresa")
     private String empresa;
 
     private Double salario;
