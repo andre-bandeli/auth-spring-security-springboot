@@ -25,6 +25,14 @@ public class Consumer {
     public Consumer() {
     }
 
+    public Consumer(Long id, String nome, String sobrenome, String empresa, Double salario) {
+        this.id = id;
+        this.nome = nome;
+        this.sobrenome = sobrenome;
+        this.empresa = empresa;
+        this.salario = salario;
+    }
+
     public Long getId() {
         return id;
     }

@@ -17,11 +17,13 @@ public class ConsumerService {
 
     @Autowired
     private ConsumerRepository consumerRepository;
+
     private final WebClient webClient;
 
     public ConsumerService(WebClient.Builder builder) {
-        webClient = builder.baseUrl("http://localhost:8080/api/v1").build();
+        webClient = builder.baseUrl("http://localhost:8080/api/v1/funcionario").build();
     }
+
 
     public Flux<Consumer> getData() {
         log.info("GET /list");

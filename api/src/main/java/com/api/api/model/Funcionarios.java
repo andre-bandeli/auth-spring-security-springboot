@@ -1,6 +1,8 @@
 package com.api.api.model;
 
 import jakarta.persistence.*;
+import org.hibernate.annotations.OnDelete;
+import org.hibernate.annotations.OnDeleteAction;
 
 @Entity
 @Table(name = "_funcionarios")
@@ -14,7 +16,8 @@ public class Funcionarios {
 
     private String sobrenome;
 
-    private String empresa;
+    @ManyToOne
+    private Empresa empresa;
 
     private Double salario;
 
@@ -45,11 +48,11 @@ public class Funcionarios {
         this.sobrenome = sobrenome;
     }
 
-    public String getEmpresa() {
+    public Empresa getEmpresa() {
         return empresa;
     }
 
-    public void setEmpresa(String empresa) {
+    public void setEmpresa(Empresa empresa) {
         this.empresa = empresa;
     }
 
