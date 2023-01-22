@@ -7,6 +7,8 @@
 ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white
 )
 
+
+
 ## Resumo
 
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
@@ -17,6 +19,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 - Autenticação via Token JWT: [autentication api](https://github.com/andre-bandeli/auth-spring-security-springboot/tree/main/autentication)
 
 ## Requisitos:
+![badge-jdk-11] ![badge-tool-maven] ![badge-junit-platform] ![badge-junit-jupiter]
 
 #### Java
 
@@ -108,3 +111,10 @@ Em caso de dúvidas, sugestões ou melhorias, abra uma nova issue ou envie uma m
 
 - Email: andre.lbandeli@gmail.com
 - Linkedin: https://www.linkedin.com/in/andrébandeli/
+
+[badge-jdk-11]: https://img.shields.io/badge/jdk-11-red.svg "JDK-11 or higher"
+[badge-junit-platform]: https://img.shields.io/badge/junit-platform-brightgreen.svg "JUnit Platform"
+[badge-junit-vintage]: https://img.shields.io/badge/junit-vintage-yellowgreen.svg "JUnit Vintage Engine"
+[badge-junit-jupiter]: https://img.shields.io/badge/junit-jupiter-green.svg "JUnit Jupiter Engine"
+[junit5-migration-maven]: junit5-migration-maven
+[badge-tool-maven]: https://img.shields.io/badge/tool-maven-0440af.svg "Maven wrapper included"
