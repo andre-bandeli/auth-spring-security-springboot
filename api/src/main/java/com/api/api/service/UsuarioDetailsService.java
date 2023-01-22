@@ -9,6 +9,7 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -20,7 +21,7 @@ import java.util.Set;
 public class UsuarioDetailsService implements UserDetailsService {
 
     @Autowired
-    private UsuarioService usuarioService;
+    private UserService usuarioService;
 
     @Override
     @Transactional
@@ -29,7 +30,6 @@ public class UsuarioDetailsService implements UserDetailsService {
         List<GrantedAuthority> authorities = getUserAuthority(usuario.getRole());
         return buildUserForAuthentication(usuario, authorities);
     }
-
 
     private List<GrantedAuthority> getUserAuthority(Set<Role> userRoles) {
         Set<GrantedAuthority> roles = new HashSet<GrantedAuthority>();
