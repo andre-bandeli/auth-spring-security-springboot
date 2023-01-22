@@ -8,9 +8,18 @@ import org.springframework.web.bind.annotation.RestController;
 @Controller
 public class IndexController {
 
+    @RequestMapping("/")
+    public String index(){
+        return "/index.html";
+    }
     @RequestMapping("/login")
     public String login(){
         return "/login.html";
+    }
+
+    @RequestMapping("/logout")
+    public String logout(){
+        return "/logout.html";
     }
 
     @GetMapping("/user")
